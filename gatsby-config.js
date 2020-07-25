@@ -27,5 +27,15 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `source code pro\:300,400,700`,
+          `source sans pro\:300,400,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
   ],
 }
