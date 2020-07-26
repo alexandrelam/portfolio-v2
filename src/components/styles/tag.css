@@ -1,0 +1,10 @@
+.tag {
+  padding: 0.3rem 0.8rem;
+  border: solid;
+  border-color: #f8b500;
+  color: #f8b500;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  margin-bottom: 0.4rem;
+}

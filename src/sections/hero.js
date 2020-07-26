@@ -6,10 +6,10 @@ import "./styles/hero.css"
 export default function HeroSection() {
   return (
     <section>
-      <div className="wrapper">
+      <div className="hero">
         <div className="content">
           <div className="left-content">
-            <p className="top">SALUT! 👋</p>
+            <p className="top">SALUT! <span role="img">👋</span></p>
             <p className="line1">
               Je suis <strong>Alexandre LAM</strong>, un étudiant passionné
             </p>
@@ -20,7 +20,7 @@ export default function HeroSection() {
               <strong className="highlight">mes projets</strong> !
             </p>
             <p className="bottom">
-              Contacte moi 👉 <strong>alexandrelam@outlook.com</strong>
+              Contacte moi <span role="img">👉</span> <strong>alexandrelam@outlook.com</strong>
             </p>
           </div>
         </div>

@@ -1,0 +1,26 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 13rem 2rem;
+    flex-wrap: wrap;
+}
+
+.about .content{
+    max-width: 38rem;
+    line-height: 1.6rem;
+}
+
+.about .content p{
+    padding-bottom: 1rem;
+    word-wrap: normal;
+}
+
+.color{
+    background-color: #FAFAFA;
+}
+
+.tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
