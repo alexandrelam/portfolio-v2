@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/portfolio`,
   siteMetadata: {
-    title: `Alexandre LAM - Portfolio`,
+    title: `Alexandre LAM | Portfolio`,
     description: ``,
     author: `Alexandre LAM`,
   },
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Alexandre LAM - Portfolio`,
+        name: `Alexandre LAM | Portfolio`,
         short_name: `portfolio`,
         start_url: `/`,
         background_color: `#663399`,
