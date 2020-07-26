@@ -1,5 +1,5 @@
 .wrapper {
-  height: 90vh;
+  height: 85vh;
   box-sizing: border-box;
   max-width: 80rem;
   margin: auto;
@@ -50,7 +50,7 @@
   height: 14.6rem;
   margin-bottom: 6rem;
   border-radius: 10rem;
-  background-color: #E4E4E4;
+  background-color: #e4e4e4;
   position: absolute;
   top: 0;
   left: 0;
@@ -64,7 +64,7 @@
   height: 16rem;
   margin-bottom: 6rem;
   border-radius: 10rem;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   position: absolute;
   top: 0;
   left: 0;
@@ -98,27 +98,21 @@
     display: none;
   }
 
-  .image-border-2{
+  .image-border-2 {
     display: none;
   }
 
-  .image-border-1{
+  .image-border-1 {
     display: none;
   }
-}
 
-@media screen and (max-width: 580px) {
-  .wrapper {
-    padding: 0.7rem;
-    font-size: 1rem;
-  }
-
-  .bottom {
-    font-size: 0.8rem;
+  .wrapper{
+    padding: 1rem;
+    height: 80vh;
   }
 }
 
-.icon-container .gatsby-image-wrapper{
+.icon-container .gatsby-image-wrapper {
   margin: auto;
   width: 3rem;
   height: 3rem;
