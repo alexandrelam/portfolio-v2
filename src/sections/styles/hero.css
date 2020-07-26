@@ -83,16 +83,6 @@
   margin-left: 1.5rem;
 }
 
-@media screen and (max-width: 980px) {
-  .wrapper {
-    font-size: 1.2rem;
-  }
-
-  .bottom {
-    font-size: 0.9rem;
-  }
-}
-
 @media screen and (max-width: 800px) {
   .image-container .gatsby-image-wrapper {
     display: none;
