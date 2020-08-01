@@ -1,7 +1,7 @@
 import React from 'react'
 import SEO from "../components/seo"
 import HeroSection from '../sections/hero'
-import About from '../sections/about'
+import AboutSection from '../sections/about'
 import './style.css'
 
 export default function IndexPage() {
@@ -9,7 +9,7 @@ export default function IndexPage() {
     <div>
       <SEO title="Portfolio" />
       <HeroSection />
-      <About />
+      <AboutSection />
     </div>
   )
 }

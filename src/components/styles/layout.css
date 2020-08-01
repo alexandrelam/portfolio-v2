@@ -1,0 +1,11 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 2rem;
+  flex-wrap: wrap;
+}
+
+.layout .content{
+  max-width: 38rem;
+  line-height: 1.6rem;
+}
