@@ -6,7 +6,7 @@ import "./styles/about.css"
 
 export default function AboutSection() {
   return (
-    <Layout title="ABOUT">
+    <Layout title="ABOUT" color={true}>
       <p>
         Actuellement, je suis en 2ème année à{" "}
         <strong>l’école d’ingénieurs</strong> à l’Institut des{" "}

@@ -1,0 +1,33 @@
+.card .header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card p{
+  margin: 0;
+}
+
+.card .header p {
+  padding: 0;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.card .header h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.card .role {
+  font-weight: bold;
+  color: #8c8c8c;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.card ul {
+  margin: 0;
+  margin-bottom: 2rem;
+}

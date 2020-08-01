@@ -6,6 +6,10 @@
 }
 
 .layout .content{
-  max-width: 38rem;
+  width: 38rem;
   line-height: 1.6rem;
+}
+
+.color{
+  background-color: #FAFAFA;
 }
