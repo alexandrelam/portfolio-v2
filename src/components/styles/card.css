@@ -16,7 +16,7 @@
 
 .card .header h2 {
   font-size: 1.2rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .card .role {
@@ -29,5 +29,8 @@
 
 .card ul {
   margin: 0;
-  margin-bottom: 2rem;
+}
+
+.card{
+    margin-bottom: 2.5rem;
 }
