@@ -9,15 +9,16 @@ export default function HeroSection() {
       <div className="hero">
         <div className="content">
           <div className="left-content">
-            <p className="top">SALUT! <span role="img">👋</span></p>
+            <p className="top">
+              SALUT! <span role="img">👋</span>
+            </p>
             <p className="line1">
               Je suis <strong>Alexandre LAM</strong>, un étudiant passionné
             </p>
             <p className="line2">par l'ingénieurie et la programmation</p>
             <p className="line1">J'adore résoudre des problèmes</p>
             <p className="line2">
-              par l'intermédiaire de{" "}
-              <strong className="highlight">mes projets</strong> !
+              par l'intermédiaire de <strong className="highlight">mes projets</strong> !
             </p>
             <p className="bottom">
               Contacte moi <span role="img">👉</span> <strong>alexandrelam@outlook.com</strong>

@@ -4,14 +4,15 @@
   max-width: 80rem;
   margin: auto;
   padding: 5rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   letter-spacing: 1px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .hero .content {
+  padding-top: 5rem;
   display: flex;
 }
 
@@ -47,7 +48,7 @@
 .image-border-1 {
   width: 14.6rem;
   height: 14.6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   border-radius: 10rem;
   background-color: #e4e4e4;
   position: absolute;
@@ -61,7 +62,7 @@
 .image-border-2 {
   width: 16rem;
   height: 16rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   border-radius: 10rem;
   background-color: #f4f4f4;
   position: absolute;
@@ -72,7 +73,7 @@
 .gatsby-image-wrapper {
   width: 13rem;
   height: 13rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   border-radius: 10rem;
   position: absolute;
   z-index: 9;
@@ -95,7 +96,7 @@
     display: none;
   }
 
-  .hero{
+  .hero {
     padding: 1rem;
     height: 80vh;
   }
