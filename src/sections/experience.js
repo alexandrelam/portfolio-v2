@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import Card from "../components/card"
+import DownloadButton from "../components/download_button"
+import CV from "../static/Alexandre_CV.pdf"
 
 export default function ExperienceSection() {
   return (
@@ -36,6 +38,7 @@ export default function ExperienceSection() {
         </li>
         <li>Création de plusieurs maquettes à l'aide de Figma</li>
       </Card>
+      <DownloadButton link={CV}/>
     </Layout>
   )
 }
