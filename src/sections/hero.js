@@ -1,6 +1,8 @@
 import React from "react"
 import ProfileImage from "../components/profile_image"
 import ScrollIcon from "../components/scroll_icon"
+import Wave from "../images/waving_hand.png"
+import Pointing from "../images/pointing_finger.png"
 import "./styles/hero.css"
 
 export default function HeroSection() {
@@ -10,7 +12,7 @@ export default function HeroSection() {
         <div className="content">
           <div className="left-content">
             <p className="top">
-              SALUT! <span role="img">👋</span>
+              SALUT! <span><img src={Wave}/></span>
             </p>
             <p className="line1">
               Je suis <strong>Alexandre LAM</strong>, un étudiant passionné
@@ -21,7 +23,7 @@ export default function HeroSection() {
               par l'intermédiaire de <strong className="highlight">mes projets</strong> !
             </p>
             <p className="bottom">
-              Contacte moi <span role="img">👉</span> <strong>alexandrelam@outlook.com</strong>
+              Contacte moi <span><img src={Pointing}/></span> <strong>alexandrelam@outlook.com</strong>
             </p>
           </div>
         </div>
