@@ -3,6 +3,8 @@ import SEO from "../components/seo"
 import HeroSection from '../sections/hero'
 import AboutSection from '../sections/about'
 import ExperienceSection from '../sections/experience'
+import ProjetSection from '../sections/projet'
+
 import './style.css'
 
 export default function IndexPage() {
@@ -12,6 +14,7 @@ export default function IndexPage() {
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
+      <ProjetSection />
     </div>
   )
 }

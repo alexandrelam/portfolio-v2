@@ -1,7 +1,8 @@
 import React from "react"
 import "./styles/card.css"
+import Tag from "./tag"
 
-export default function Card({ title, role, date, content, children }) {
+export default function Card({ title, role, date, content, tags, children }) {
   return (
     <div className="card">
       <div className="header">
@@ -10,6 +11,9 @@ export default function Card({ title, role, date, content, children }) {
       </div>
       {role && <p className="role">{role}</p>}
       <p className="content-paragraph">{content}</p>
+      <div className="tag-container">
+        {tags && tags.map(tag => <Tag title={tag} />)}
+      </div>
       {children && <ul>{children}</ul>}
     </div>
   )

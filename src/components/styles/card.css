@@ -34,3 +34,9 @@
 .card{
     margin-bottom: 2.5rem;
 }
+
+.card .tag-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}

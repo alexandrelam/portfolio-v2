@@ -6,7 +6,7 @@ import CV from "../static/Alexandre_CV.pdf"
 
 export default function ExperienceSection() {
   return (
-    <Layout title="EXPERIENCE">
+    <Layout title="EXPÉRIENCE">
       <Card
         title="Institut Mines-Télécom"
         date="2018 - Maintenant"
