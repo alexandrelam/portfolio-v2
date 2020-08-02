@@ -102,21 +102,26 @@
   }
 }
 
+@media screen and (max-width: 420px) {
+  .hero {
+    margin-top: 4rem;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .hero {
     font-size: 1.2rem;
     margin-top: 1rem;
   }
 
-  .top{
+  .top {
     margin-bottom: 1rem;
   }
 
-  .bottom{
+  .bottom {
     margin-top: 1rem;
   }
 }
-
 
 .icon-container .gatsby-image-wrapper {
   margin: auto;

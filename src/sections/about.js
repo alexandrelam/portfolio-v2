@@ -7,7 +7,7 @@ import "./styles/about.css"
 export default function AboutSection() {
   return (
     <Layout title="ABOUT" color={true}>
-      <p>
+      <p id="rm-margintop">
         Actuellement, je suis en 2ème année à{" "}
         <strong>l’école d’ingénieurs</strong> à l’Institut des{" "}
         <strong>Mines-Télécom</strong> Lille Douai. Mon projet est de mener des
