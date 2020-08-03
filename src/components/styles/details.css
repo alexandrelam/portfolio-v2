@@ -15,10 +15,21 @@
   margin-bottom: 3.75rem;
 }
 
-.details .project-title {
+@media screen and (max-width: 420px){
+  .details .nav{
+    margin-top: 1rem;
+  }
+}
+
+.details .project-title{
+  overflow: hidden;
+}
+
+.details .project-title h2{
   color: black;
   font-size: 2.2rem;
   font-weight: bold;
+  margin: 0;
 }
 
 .details .info {

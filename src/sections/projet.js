@@ -19,6 +19,7 @@ export default function ProjetSection() {
             "Github Pages",
           ]}
           hover
+          link="/projets/portfoliov2"
         />
         <Card
           title="Application de visualisation pour la RATP"
@@ -26,7 +27,7 @@ export default function ProjetSection() {
           content="Création d'un outil de visualisation qui trie et formate les données de l'api de Vigicrues pour faciliter son utilisatoin par la RATP"
           tags={["Gatsby", "React", "Graphql", "Git", "Github Pages"]}
           hover
-          link="/testpage/"
+          link="/projets/ratp"
         />
         <Card
           title="Application fullstack de labellisation d'image"
@@ -34,6 +35,7 @@ export default function ProjetSection() {
           content="Création d'une application fullstack qui permet de labelliser des images en vue de l'entraînement d'un algorithme de machine learning de vision"
           tags={["Python", "Django", "Django-rest-framework", "React", "Git"]}
           hover
+          link="projets/labellisation"
         />
         <Card
           title="Grapheur de fonctions mathématiques"
