@@ -11,6 +11,7 @@ export default function ExperienceSection() {
         title="Institut Mines-Télécom"
         date="2018 - Maintenant"
         content="Sciences de l'ingénieur, algorithmique, base de donnée, etc"
+        nopadding
       />
       <Card
         title="Energie Formation, GRDF"

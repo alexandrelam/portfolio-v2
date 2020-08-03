@@ -1,12 +1,20 @@
 import React from "react"
-import './styles/download_button.css'
+import "./styles/download_button.css"
 
-export default function DownloadButton({link}) {
+import { motion } from "framer-motion"
+
+export default function DownloadButton({ link }) {
   return (
-    <button>
+    <motion.button
+      whileHover={{
+        scale: 1.1,
+        rotate: 0.3,
+        boxShadow: "3px 3px 5px 0 rgba(0, 0, 0, 0.5)",
+      }}
+    >
       <a href={link} download>
         Télécharger mon CV
       </a>
-    </button>
+    </motion.button>
   )
 }
