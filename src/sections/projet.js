@@ -5,7 +5,6 @@ import Card from "../components/card"
 export default function ProjetSection() {
   return (
     <div id="projet">
-      {" "}
       <Layout title="PROJETS" color>
         <Card
           title="Portfolio V2"
@@ -27,6 +26,7 @@ export default function ProjetSection() {
           content="Création d'un outil de visualisation qui trie et formate les données de l'api de Vigicrues pour faciliter son utilisatoin par la RATP"
           tags={["Gatsby", "React", "Graphql", "Git", "Github Pages"]}
           hover
+          link="/testpage/"
         />
         <Card
           title="Application fullstack de labellisation d'image"
