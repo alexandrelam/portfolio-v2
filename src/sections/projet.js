@@ -43,6 +43,7 @@ export default function ProjetSection() {
           content="Création d'une application similaire à geogebra qui permet de visualiser la courbe d'une fonction entrée"
           tags={["Programmation en C", "OpenGL"]}
           hover
+          link="/projets/grapheur"
         />
         <Card
           title="Visualiseur d'algorithmes de tri"
@@ -50,6 +51,7 @@ export default function ProjetSection() {
           content="Outil de visualisation des algorithmes de tri : Quicksort, Bubblesort, Mergesort"
           tags={["Programmation en C", "SDL2"]}
           hover
+          link="/projets/algotri"
         />
         <Card
           title="Machine learning et algorithme génétique"
@@ -57,6 +59,7 @@ export default function ProjetSection() {
           content="Création d'un algorithme de machine learning sans supervision basé sur le jeu Flappy Bird"
           tags={["Python", "Pygame", "Numpy"]}
           hover
+          link="/projets/machinelearning"
         />
       </Layout>
     </div>

@@ -7,21 +7,28 @@ export default function Labellisation() {
       <Details
         title="Application fullstack de labellisation d’image"
         author="Alexandre LAM"
-        date="Juillet 2020"
+        date="Avril - Juin 2020"
         github="https://github.com/alexandrelam/ml-labeling"
         tech_stack={[
           "Python",
           "Django",
           "Django-rest-framework",
+          "Postman",
           "SQLite",
           "ReactJs",
           "Antd",
           "Konva",
           "Figma",
-          "Github"
+          "Github",
         ]}
-        description="Les algorithmes de machine learning de détection d’objets sont de plus en plus répandu aujourd'hui et requiert une grande quantité de données pour être entraînées. Cette application permet de labelliser les objets d’une image en ajoutant des “boundary box” autour d’eux. "
-        next_project_link="/projets/portfoliov2"
+        description="Les algorithmes de machine learning de détection d’objets sont de plus en plus répandus aujourd'hui et requièrent une grande quantité de données pour être entraînés. Cette application permet de labelliser les objets d’une image en ajoutant des “boundary box” autour de ces images."
+        functionality={[
+          "API RESTful avec Python et Django",
+          "Frontend avec React",
+          "Système d’authentification basé sur les tokens",
+          "HTML Canvas pour afficher l’image et gérer les rectangles",
+        ]}
+        next_project_link="/projets/grapheur"
       />
     </div>
   )

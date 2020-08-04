@@ -15,6 +15,8 @@ export default function Details({
   hosted_website,
   tech_stack,
   description,
+  role,
+  functionality,
   youtube,
   timestamps,
   next_project_link,
@@ -33,7 +35,7 @@ export default function Details({
       </Link>
       <div className="project-title">
         <motion.h2
-          initial={{ y: 200}}
+          initial={{ y: 200 }}
           animate={{ y: 0 }}
           transition={{ delay: 0.6, ease: "easeOut", duration: 0.6 }}
         >
@@ -47,7 +49,7 @@ export default function Details({
       >
         <div className="info">
           <div className="item">
-            <div className="title">Autheur</div>
+            <div className="title">Auteur</div>
             <div>{author}</div>
           </div>
           <div className="item">
@@ -81,6 +83,26 @@ export default function Details({
         </div>
         <h2>Description</h2>
         <p>{description}</p>
+        {role && (
+          <div>
+            <h2>Mon rôle dans ce projet de groupe</h2>
+            <ul>
+            {role.map(item => (
+              <li>{item}</li> 
+            ))}
+            </ul>
+          </div>
+        )}
+        {functionality && (
+          <div>
+            <h2>Fonctionnalités</h2>
+            <ul>
+            {functionality.map(item => (
+              <li>{item}</li> 
+            ))}
+            </ul>
+          </div>
+        )}
         {youtube && (
           <div className="player">
             <iframe

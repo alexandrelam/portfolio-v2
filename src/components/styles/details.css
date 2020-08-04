@@ -39,15 +39,22 @@
 .details .item {
   display: flex;
   flex-wrap: wrap;
+ 
   margin-bottom: 0.7rem;
   color: #333333;
   overflow: hidden;
 }
 
 .details .title {
-  width: 15rem;
+  max-width: 15rem;
+  min-width: 5rem;
+  flex-grow: 1;
   height: 1.7rem;
   font-weight: bold;
+}
+
+.details li{
+  margin-bottom: 1rem;
 }
 
 .details .stack-items ul {
