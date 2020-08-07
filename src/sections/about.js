@@ -2,12 +2,9 @@ import React from "react"
 import Tag from "../components/tag"
 import Layout from "../components/layout"
 
-import { motion, useViewportScroll } from "framer-motion"
-
 import "./styles/about.css"
 
 export default function AboutSection() {
-  const { scrollYProgress } = useViewportScroll()
 
   return (
     <Layout title="À PROPOS" color={true}>

@@ -30,6 +30,7 @@ export default function HeroSection() {
                 SALUT!{" "}
                 <span>
                   <motion.img
+                    alt="waving_hand"
                     src={Wave}
                     animate={{
                       rotate: [0, 15, -15, 15, 0],
@@ -85,7 +86,10 @@ export default function HeroSection() {
                 transition={{ delay: 0.7, ease: "easeOut", duration: 0.4 }}
               >
                 par l'intermédiaire de{" "}
-                <strong className="highlight"><a href="#projet">mes projets</a></strong> !
+                <strong className="highlight">
+                  <a href="#projet">mes projets</a>
+                </strong>{" "}
+                !
               </motion.p>
             </div>
             <div className="txt-animation bottom">
@@ -98,7 +102,7 @@ export default function HeroSection() {
               >
                 Contacte moi{" "}
                 <span>
-                  <img src={Pointing} />
+                  <img src={Pointing} alt="pointing_hand"/>
                 </span>{" "}
                 <strong>alexandrelam@outlook.com</strong>
               </motion.p>
@@ -111,7 +115,7 @@ export default function HeroSection() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          <ProfileImage />
+          <ProfileImage alt="profile_pic"/>
           <div className="image-border-1"></div>
           <div className="image-border-2"></div>
         </motion.div>
@@ -120,9 +124,9 @@ export default function HeroSection() {
         className="icon-container"
         initial={{ y: "30vh", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 1.2, type:'spring', velocity:3 }}
+        transition={{ delay: 1.2, type: "spring", velocity: 3 }}
       >
-        <ScrollIcon />
+        <ScrollIcon  alt="scroll_icon"/>
       </motion.div>
     </section>
   )

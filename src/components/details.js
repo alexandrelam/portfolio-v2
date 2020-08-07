@@ -107,9 +107,10 @@ export default function Details({
           <div className="player">
             <iframe
               id="ytplayer"
+              title="ytplayer"
               type="text/html"
-              width="640"
-              height="360"
+              width="800"
+              height="450"
               src={youtube}
               frameborder="0"
             />
