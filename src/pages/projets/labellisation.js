@@ -28,7 +28,7 @@ export default function Labellisation() {
           "Système d’authentification basé sur les tokens",
           "HTML Canvas pour afficher l’image et gérer les rectangles",
         ]}
-        youtube="https://www.youtube.com/embed/er_ivHNstcg"
+        youtube="https://www.youtube.com/embed/er_ivHNstcg?rel=0"
         timestamps={[
           { time: "0:00", description: "Lancement de Django et React" },
           { time: "0:36", description: "Déplacement et ajout de rectangles" },

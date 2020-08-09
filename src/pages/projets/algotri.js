@@ -13,7 +13,7 @@ export default function AlgoTri() {
           "SDL2",
         ]}
         description="Cette application permet de visualiser les algorithmes de tri suivants  : Quicksort, Mergesort et Bubblesort."
-        youtube="https://www.youtube.com/embed/sntehVdfs-o"
+        youtube="https://www.youtube.com/embed/sntehVdfs-o?rel=0"
         timestamps={[
           { time: "0:00", description: "Quicksort" },
           { time: "0:12", description: "Mergesort" },

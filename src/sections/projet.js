@@ -24,13 +24,13 @@ export default function ProjetSection() {
         <Card
           title="Application de visualisation pour la RATP"
           date="Juillet 2020"
-          content="Création d'un outil de visualisation qui trie et formate les données de l'api de Vigicrues pour faciliter son utilisatoin par la RATP"
+          content="Création d'un outil de visualisation qui trie et formate les données de l'api de Vigicrues pour faciliter son utilisation par la RATP"
           tags={["Gatsby", "React", "Graphql", "Git", "Github Pages"]}
           hover
           link="/projets/ratp"
         />
         <Card
-          title="Application fullstack de labellisation d'image"
+          title="Application fullstack de labellisation d'images"
           date="Avril - Juin 2020"
           content="Création d'une application fullstack qui permet de labelliser des images en vue de l'entraînement d'un algorithme de machine learning de vision"
           tags={["Python", "Django", "Django-rest-framework", "React", "Git"]}
@@ -40,7 +40,7 @@ export default function ProjetSection() {
         <Card
           title="Grapheur de fonctions mathématiques"
           date="Janvier - Février 2020"
-          content="Création d'une application similaire à geogebra qui permet de visualiser la courbe d'une fonction entrée"
+          content="Création d'une application similaire à Geogebra qui permet de visualiser la courbe d'une fonction"
           tags={["Programmation en C", "OpenGL"]}
           hover
           link="/projets/grapheur"

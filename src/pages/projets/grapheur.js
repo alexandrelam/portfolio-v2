@@ -22,7 +22,7 @@ export default function Grapheur() {
           "Système d’authentification basé sur les tokens",
           "HTML Canvas pour afficher l’image et gérer les rectangles",
         ]}
-        youtube="https://www.youtube.com/embed/Fh38xzsppVs"
+        youtube="https://www.youtube.com/embed/Fh38xzsppVs?rel=0"
         timestamps={[
           { time: "0:00", description: "Lancement du programme" },
           { time: "0:15", description: "Fonction x+3" },

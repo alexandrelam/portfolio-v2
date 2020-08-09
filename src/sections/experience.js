@@ -10,7 +10,7 @@ export default function ExperienceSection() {
       <Card
         title="Institut Mines-Télécom"
         date="2018 - Maintenant"
-        content="Sciences de l'ingénieur, algorithmique, base de donnée, etc"
+        content="Sciences de l'ingénieur, algorithmique, base de données, etc"
         nopadding
       />
       <Card
@@ -19,19 +19,19 @@ export default function ExperienceSection() {
         role="Technicien de maintenance "
         content="Stage ouvrier dans le domaine de la maintenance"
       >
-        <li>Acquisition de nombreuses connaissances techniques liées au gaz</li>
-        <li>Participation aux activités de maintenance du campus</li>
-        <li>Prise d'initiatives pour la mise en place du projet "showroom"</li>
+        <li>Activités de maintenance des installations pédagogiques</li>
+        <li>Aménagement du showroom sur le campus</li>
+        <li>Participation à différentes formations sur les métiers du gaz</li>
       </Card>
       <Card
         title="RATP"
         date="Mai - Août 2020"
         role="Chargé d'étude et de travaux"
-        content="La cellule Plan Prévention des Risque Inondation a exprimé le souhait d’acquérir un nouvel outil de gestion de crise"
+        content="La cellule Plan Prévention des Risques Inondation a exprimé le souhait d’acquérir un nouvel logiciel de gestion de crise"
       >
         <li>
-          Collecte des besoins auprès de différents acteurs pour le futur outil
-          de gestion de crise
+          Recueil des besoins auprès des différents acteurs pour le futur
+          logiciel
         </li>
         <li>
           Rédaction d'un cahier des charges fonctionnels regroupant l'ensemble
@@ -39,7 +39,7 @@ export default function ExperienceSection() {
         </li>
         <li>Création de plusieurs maquettes à l'aide de Figma</li>
       </Card>
-      <DownloadButton link={CV}/>
+      <DownloadButton link={CV} />
     </Layout>
   )
 }

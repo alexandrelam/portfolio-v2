@@ -62,7 +62,7 @@ export default function HeroSection() {
                 variants={variants}
                 transition={{ delay: 0.5, ease: "easeOut", duration: 0.4 }}
               >
-                par l'ingénieurie et la programmation
+                par l'ingénierie et la programmation
               </motion.p>
             </div>
             <div className="txt-animation line1">
@@ -100,7 +100,7 @@ export default function HeroSection() {
                 variants={variants}
                 transition={{ delay: 0.8, ease: "easeOut", duration: 0.4 }}
               >
-                Contacte moi{" "}
+                Contacte-moi{" "}
                 <span>
                   <img src={Pointing} alt="pointing_hand"/>
                 </span>{" "}

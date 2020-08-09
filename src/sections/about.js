@@ -5,15 +5,14 @@ import Layout from "../components/layout"
 import "./styles/about.css"
 
 export default function AboutSection() {
-
   return (
     <Layout title="À PROPOS" color={true}>
       <p id="rm-margintop">
-        Actuellement, je suis en 2ème année à{" "}
-        <strong>l’école d’ingénieurs</strong> à l’Institut des{" "}
-        <strong>Mines-Télécom</strong> Lille Douai. Mon projet est de mener des
-        études dans le domaine de <strong>l'ingénierie informatique</strong> et
-        plus précisément dans le développement.
+        Actuellement, en première année du cycle <strong>ingénieur</strong> de
+        l’Institut des <strong>Mines-Télécom</strong> Lille Douai. Mon projet
+        est de mener des études dans le domaine de{" "}
+        <strong>l'ingénierie informatique</strong> et plus précisément dans le
+        développement.
       </p>
       <p>
         Depuis que j’ai découvert la programmation à mes 17 ans, je n’arrête
@@ -22,8 +21,8 @@ export default function AboutSection() {
       </p>
       <p>
         <strong>Quand je ne suis pas devant mon ordinateur</strong> , j’aime
-        voyager et passer du temps avec mes amis. Je suis aussi un enthousiaste
-        de hardware et de clavier mécanique custom.
+        voyager et passer du temps avec mes amis. Je suis aussi féru
+        de hardware et de clavier mécanique customisé.
       </p>
       <p>
         Voici quelques{" "}

@@ -87,9 +87,9 @@ export default function Details({
           <div>
             <h2>Mon rôle dans ce projet de groupe</h2>
             <ul>
-            {role.map(item => (
-              <li>{item}</li> 
-            ))}
+              {role.map(item => (
+                <li>{item}</li>
+              ))}
             </ul>
           </div>
         )}
@@ -97,9 +97,9 @@ export default function Details({
           <div>
             <h2>Fonctionnalités</h2>
             <ul>
-            {functionality.map(item => (
-              <li>{item}</li> 
-            ))}
+              {functionality.map(item => (
+                <li>{item}</li>
+              ))}
             </ul>
           </div>
         )}
@@ -108,6 +108,11 @@ export default function Details({
             <iframe
               id="ytplayer"
               title="ytplayer"
+              allowfullscreen="allowfullscreen"
+              mozallowfullscreen="mozallowfullscreen"
+              msallowfullscreen="msallowfullscreen"
+              oallowfullscreen="oallowfullscreen"
+              webkitallowfullscreen="webkitallowfullscreen"
               type="text/html"
               width="800"
               height="450"
